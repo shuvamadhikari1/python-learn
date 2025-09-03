@@ -1,5 +1,10 @@
-tuple=(1,2,3,4,1,5,6,7,8,9,10)
-print(type(tuple))
-print(tuple.count(1))
-print(tuple.index(5))   
-print(len(tuple))
+# tuple=(1,2,3,4,1,5,6,7,8,9,10)
+# print(type(tuple))
+# print(tuple.count(1))
+# print(tuple.index(5))   
+# print(len(tuple))
+
+
+
+
+

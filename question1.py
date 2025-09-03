@@ -40,6 +40,43 @@
 # Sum of Digits
 # Input a number and print the sum of all its digits (e.g., 123 → 6).
 
-def sum_of_digits():
-    num=int(input("Enter a number: "))
-    sum=0
+# def sum_of_digits():
+#     num=int(input("Enter a number: "))
+#     total=0
+#     for i in str(num):
+#         total= total + int(i)
+#     print(f"The sum of digits in {num} is {total}")
+# sum_of_digits()
+
+
+
+##Multiplication Table Generator
+# ##Ask the user for a number and print its multiplication table (1 to 10)
+# def multiplication_table():
+#     num = int(input("Enter a number: ")) 
+
+#     for i in range(1, 11):              
+#         print(f"{num} x {i} = {num * i}")
+
+
+# multiplication_table()
+
+
+#Rock, Paper, Scissors
+#Play against the computer using random.choice().
+
+import random
+def rock_paper_scissors():
+    choices=["rock","paper","scissors"]
+    computer_choice=random.choice(choices)
+    user_choice=input("Enter your choice (rock, paper, scissors): ").lower()
+    print(f"Computer chose: {computer_choice}")
+    if user_choice==computer_choice:
+        print("It's a tie!")
+    elif (user_choice=="rock" and computer_choice=="scissors") or (user_choice=="paper" and computer_choice=="rock") or (user_choice=="scissors" and computer_choice=="paper"):
+        print("You win!")
+    elif user_choice in choices:
+        print("Computer wins!") 
+    else:
+        print("Invalid input! Please choose rock, paper, or scissors.") 
+rock_paper_scissors()
