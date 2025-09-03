@@ -72,7 +72,7 @@
 # #     a= int(input("Enter first number: "))
 # #     b= int(input("Enter second number: "))
 # #     print(div(a,b))
-# # else:
+# # else:+
 # #     print("Invalid input")
 
 
@@ -87,7 +87,8 @@
 # print("factorial", factorial(n))
 
 
-#Write a program to check whether a number is prime.
+
+# Write a program to check whether a number is prime.
 
 # def iprime(num):
 
@@ -100,6 +101,8 @@
 #             return False
 #     return True
 
+# #num=10
+
 # n=int(input("Enter a number: "))
 # if iprime(num=n):
 #     print(n,"is a prime number") 
@@ -107,7 +110,7 @@
 #     print(n,"is not a prime number")
 
 
-    #Write a program to reverse a given string (e.g., "Python" → "nohtyP").
+#     Write a program to reverse a given string (e.g., "Python" → "nohtyP").
  
 # def reverse_string(s):
 #     reverse_string1=""
@@ -116,3 +119,12 @@
 #     return reverse_string1
 # s=input("Enter a string: ")
 # print("Reversed string is:",reverse_string(s))
+
+def factorial(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        return n*factorial(n-1)
+    
+n=int(input("Enter a number: "))
+print("Factorial of",n,"is",factorial(n))
