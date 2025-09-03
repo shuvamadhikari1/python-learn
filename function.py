@@ -89,19 +89,30 @@
 
 #Write a program to check whether a number is prime.
 
-def iprime(num):
+# def iprime(num):
 
-    if num<=1:
-        return False
-    if num==2:
-        return True
-    for i in range(2,num):
-        if num%i==0:
-            return False
-    return True
+#     if num<=1:
+#         return False
+#     if num==2:
+#         return True
+#     for i in range(2,num):
+#         if num%i==0:
+#             return False
+#     return True
 
-n=int(input("Enter a number: "))
-if iprime(num=n):
-    print(n,"is a prime number") 
-else:
-    print(n,"is not a prime number")
+# n=int(input("Enter a number: "))
+# if iprime(num=n):
+#     print(n,"is a prime number") 
+# else:
+#     print(n,"is not a prime number")
+
+
+    #Write a program to reverse a given string (e.g., "Python" → "nohtyP").
+ 
+# def reverse_string(s):
+#     reverse_string1=""
+#     for i in s:
+#         reverse_string1=i+reverse_string1
+#     return reverse_string1
+# s=input("Enter a string: ")
+# print("Reversed string is:",reverse_string(s))
