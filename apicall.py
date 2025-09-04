@@ -28,10 +28,10 @@
 
 
 
-import requests
+# import requests
 
-api_key ="xai-N7L44DyXZhvJoNHb1nTRDT5v3EBskTlwXtw2XHCrfLELeo4Y2rJOfwv2o1XXTYPanrTti9YuIG3t6Zva"
+# api_key ="xai-N7L44DyXZhvJoNHb1nTRDT5v3EBskTlwXtw2XHCrfLELeo4Y2rJOfwv2o1XXTYPanrTti9YuIG3t6Zva"
 
 
 
-url="https://api.x.ai/v1/chat/completions "
+# url="https://api.x.ai/v1/chat/completions "
