@@ -1,2 +1,3 @@
-import os
-api_key = os.getenv("XAI_API_KEY")
+from env import api_key
+import requests
+
